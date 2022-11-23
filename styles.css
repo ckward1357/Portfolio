@@ -1,12 +1,13 @@
 *{
-    margin-left:0;
+    margin:0;
     padding:0;
-
 }
   
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    background:rgb(7, 49, 49);
+
 }
 
 
@@ -14,6 +15,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: white;
     min-height: 100vh;
+    max-width: 1080px;
+    margin:auto;
 }
 
 
@@ -31,6 +34,8 @@ h2 {
     font-weight: 500;
     margin-bottom:2rem;
     margin-left: 2%;
+    margin-top: 2rem;
+
 }
 
 h3 {
@@ -44,15 +49,45 @@ h3 {
 
 /* Header */
 
-.img-container{
+div.header{
+    padding: 1rem;
+    background-color: rgb(15, 109, 109);
+}
+
+
+div.header ul{
+    display: flex;
+    list-style: none;
+
+}
+
+div.header ul li{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+div.header ul li:hover{
+    color: #b7b7b7;
+}
+
+
+div.header ul li a {
+text-decoration: none;
+color:#fff;
+}
+
+.img-container-main{
     width:100%;
     height: 300px;
     background-image: url(images/hero.jpg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-.inner-container{
-    padding-top: 8rem;
+.inner-container-main{
+    padding-top: 10rem;
     text-align: center;
     color:white;
     text-shadow: 1px 1px 10px black;
@@ -74,7 +109,13 @@ p{
 
 /* Card Grid */
 
-.grid{
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.project-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -82,8 +123,7 @@ p{
 
 
 .grid-item {
-    max-width: 400px;
-    min-width: 300px;
+    max-width: 450px;
     background-color: #fff;
     border-radius: 0.4rem;
     overflow: hidden;
@@ -102,7 +142,6 @@ p{
 .card-img {
     display: block;
     width: 100%;
-    height: 20rem;
     object-fit: cover;
 }
 
@@ -126,8 +165,8 @@ p{
 }
 
 .card-btn {
+    margin-top: 2rem;;
     display: block;
-    width: 100%;
     padding: 1.5rem;
     font-size: 2rem;
     text-align: center;
@@ -158,3 +197,27 @@ p{
 
 
 /* Footer */
+footer{
+    background-color: rgb(15, 109, 109);
+    text-align: center;
+    color: #fff;
+    padding: .5rem;
+
+}
+
+
+/* Pokenindex */
+
+
+/* aol */
+
+
+/* aptcop */
+
+
+/* canvas */
+
+
+/* Fyac */
+
+/* vacationnation */
