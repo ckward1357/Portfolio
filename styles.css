@@ -47,23 +47,28 @@ h3 {
 }
 
 
+a{
+    text-decoration: none;
+}
+
+
 /* Header */
 
 div.header{
-    padding: 1rem;
+    padding: 1rem 0 1rem 2%;
     background-color: rgb(15, 109, 109);
+
 }
 
 
 div.header ul{
     display: flex;
     list-style: none;
-
 }
 
 div.header ul li{
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 1rem;
+    padding-right: 3rem;
     font-size: 1.6rem;
     color: #fff;
 }
