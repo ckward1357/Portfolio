@@ -243,6 +243,7 @@ div.gallery{
 div.gallery img{
 margin: 1rem;
 max-width: 400px;
+max-height: 300px;
 
 }
 
