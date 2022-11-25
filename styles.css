@@ -24,8 +24,8 @@ body {
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
-    margin-bottom: 2rem;
-    margin-left: 2%;
+    margin: 2rem 0 2rem 2%;
+
  }
 
 
@@ -225,9 +225,27 @@ footer{
     background-color: rgb(15, 109, 109);
     text-align: center;
     color: #fff;
-    padding: .5rem;
+    padding: .2rem;
 
 }
+
+
+
+/* Image Gallery */
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+div.gallery img{
+margin: 1rem;
+max-width: 400px;
+
+}
+
 
 
 /* Pokenindex */
