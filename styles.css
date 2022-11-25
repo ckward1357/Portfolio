@@ -248,6 +248,15 @@ max-height: 300px;
 }
 
 
+div.documentcontainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.document{
+    max-width: 90%;
+}
 
 /* Pokenindex */
 
