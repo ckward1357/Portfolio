@@ -56,6 +56,14 @@ p{
     margin: 2rem;
 }
 
+
+ul.canvas li{
+    display: list-item;
+    font-size: 1.6rem;
+    margin-left:8%;
+}
+
+
 /* Header */
 
 div.header{
