@@ -296,7 +296,7 @@ a.pdfbtn{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .about-grid{
         display: grid;
         grid-template-columns: 1fr;
