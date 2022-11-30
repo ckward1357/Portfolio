@@ -159,6 +159,7 @@ p{
     margin: 1rem;
 }
 
+
 .grid-item:hover{
     transform: translateY(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5)
@@ -190,6 +191,8 @@ p{
     margin-bottom: 2.5rem;
 }
 
+
+
 .card-btn {
     margin-top: 2rem;;
     display: block;
@@ -204,6 +207,7 @@ p{
     cursor:pointer;
     letter-spacing: 0.1rem;
 }
+
 
 .card-btn span {
     margin-left: 1rem;
