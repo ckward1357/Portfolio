@@ -322,5 +322,9 @@ a.pdfbtn{
         margin: 1rem;
     }
 
+    h2, h3 {
+        margin-top: 4rem;
+    }
+
 }
 
