@@ -288,6 +288,34 @@ a.pdfbtn{
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
-    
-    
 }
+
+@media (max-width: 400px) {
+    .about-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+
+
+    .project-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    
+    .grid-item {
+        max-width: 300px;
+        background-color: #fff;
+        border-radius: 0.4rem;
+        overflow: hidden;
+        box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: 0.2s;
+        margin: 1rem;
+    }
+
+}
+
