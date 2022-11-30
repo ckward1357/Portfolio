@@ -227,16 +227,6 @@ p{
     
 
 
-/* Footer */
-footer{
-    background-color: rgb(15, 109, 109);
-    text-align: center;
-    color: #fff;
-    padding: .2rem;
-
-}
-
-
 
 /* Image Gallery */
 
@@ -294,6 +284,16 @@ a.pdfbtn{
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
+
+    div.gallery img{
+        margin: 1rem;
+        max-width: 300px;
+        max-height: 300px;
+        box-shadow: 1px 1px 5px black;
+        
+        }
+
+
 }
 
 @media (max-width: 400px) {
@@ -322,6 +322,21 @@ a.pdfbtn{
         transition: 0.2s;
         margin: 1rem;
     }
+
+
+
+}
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(15, 109, 109);
+    text-align: center;
+    color: #fff;
+    padding: .2rem;
 
 }
 
