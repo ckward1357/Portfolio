@@ -38,7 +38,16 @@ h2 {
     margin-bottom:2rem;
     margin-left: 2%;
     margin-top: 4rem;
+}
 
+h1.heroh1{
+    color:white;
+    text-shadow: 1px 1px 5px black;
+}
+
+h3.heroh3{
+    color:white;
+    text-shadow: 1px 1px 5px black;
 }
 
 h3 {
